@@ -1,0 +1,31 @@
+{
+    "name": "@peterdekok/ts-ast",
+    "version": "0.0.1",
+    "description": "A (typescript) code change tool, through manipulation of ASTs",
+    "license": "GPL-3.0",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "files": [
+        "/lib"
+    ],
+    "author": {
+        "name": "Peter de Kok",
+        "email": "info@peterdekok.nl"
+    },
+    "private": false,
+    "scripts": {
+        "build": "tsc -p tsconfig.json",
+        "watch": "tsc -p tsconfig.json --watch"
+    },
+    "dependencies": {
+        "ast-types": "^0.14.2",
+        "chalk": "^4.1.2",
+        "jscodeshift": "^0.13.0",
+        "recast": "^0.20.5"
+    },
+    "devDependencies": {
+        "@types/jscodeshift": "^0.11.3",
+        "@types/node": "^16.11.7",
+        "typescript": "^4.4.4"
+    }
+}

@@ -1,0 +1,13 @@
+# OS & IDE
+.DS_Store
+.idea
+
+# Environment
+.env.*
+
+# Build artifacts
+/lib/
+
+# Package manager
+/node_modules/
+yarn-error.log

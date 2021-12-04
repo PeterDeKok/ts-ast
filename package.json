@@ -1,8 +1,22 @@
 {
     "name": "@peterdekok/ts-ast",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "A (typescript) code change tool, through manipulation of ASTs",
+    "keywords": [
+        "ast",
+        "typescript",
+        "codemod",
+        "vue"
+    ],
     "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PeterDeKok/ts-ast.git"
+    },
+    "website": "https://github.com/PeterDeKok/ts-ast",
+    "bugs": {
+        "url": "https://github.com/PeterDeKok/ts-ast/issues"
+    },
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "files": [

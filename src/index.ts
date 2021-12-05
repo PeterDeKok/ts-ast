@@ -10,6 +10,8 @@ import {
     runTransformation,
 } from './utils';
 
+export * from './transformations';
+
 export {
     BaseOptions,
     ITransformer,

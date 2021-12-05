@@ -62,7 +62,7 @@ export default abstract class Transformer<Context> {
         this._logger.error(message, ...params);
 
         if (optionsThrowable(this._options)) {
-            process.exit(1);
+            throw new Error(message);
         }
 
         return false;
@@ -74,7 +74,7 @@ export default abstract class Transformer<Context> {
         this._logger.warning(message, ...params);
 
         if (optionsThrowable(this._options)) {
-            process.exit(1);
+            throw new Error(message);
         }
 
         return false;

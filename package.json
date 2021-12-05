@@ -1,6 +1,6 @@
 {
     "name": "@peterdekok/ts-ast",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "description": "A (typescript) code change tool, through manipulation of ASTs",
     "keywords": [
         "ast",

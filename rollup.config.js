@@ -7,13 +7,13 @@ export default {
     input: 'src/index.ts',
     output: {
         dir: 'lib',
-        format: 'cjs',
-        exports: 'named',
     },
     plugins: [
-        nodeResolve(),
-        json(),
+        nodeResolve({
+            preferBuiltins: true,
+        }),
         typescript(),
+        json(),
         commonjs(),
     ],
 };
